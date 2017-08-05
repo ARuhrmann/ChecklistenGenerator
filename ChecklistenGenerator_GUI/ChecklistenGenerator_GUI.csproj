@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChecklistenGenerator_MSSQL\ChecklistenGenerator_MSSQL.csproj">
+      <Project>{4f93605b-2dee-429a-8c78-dc986718887c}</Project>
+      <Name>ChecklistenGenerator_MSSQL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
